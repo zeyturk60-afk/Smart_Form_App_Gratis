@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0839B44E-237E-4092-9418-C9623CAE809C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp11</RootNamespace>
+    <AssemblyName>WindowsFormsApp11</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form10.Designer.cs">
+      <DependentUpon>Form10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form11.Designer.cs">
+      <DependentUpon>Form11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form12.Designer.cs">
+      <DependentUpon>Form12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form13.Designer.cs">
+      <DependentUpon>Form13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form14.Designer.cs">
+      <DependentUpon>Form14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form15.Designer.cs">
+      <DependentUpon>Form15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form16.Designer.cs">
+      <DependentUpon>Form16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form17.Designer.cs">
+      <DependentUpon>Form17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form18.Designer.cs">
+      <DependentUpon>Form18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form19.Designer.cs">
+      <DependentUpon>Form19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form20.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form20.Designer.cs">
+      <DependentUpon>Form20.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form21.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form21.Designer.cs">
+      <DependentUpon>Form21.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form22.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form22.Designer.cs">
+      <DependentUpon>Form22.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form23.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form23.Designer.cs">
+      <DependentUpon>Form23.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form24.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form24.Designer.cs">
+      <DependentUpon>Form24.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form25.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form25.Designer.cs">
+      <DependentUpon>Form25.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form26.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form26.Designer.cs">
+      <DependentUpon>Form26.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form27.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form27.Designer.cs">
+      <DependentUpon>Form27.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form28.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form28.Designer.cs">
+      <DependentUpon>Form28.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form29.Designer.cs">
+      <DependentUpon>Form29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form30.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form30.Designer.cs">
+      <DependentUpon>Form30.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form31.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form31.Designer.cs">
+      <DependentUpon>Form31.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form32.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form32.Designer.cs">
+      <DependentUpon>Form32.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form33.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form33.Designer.cs">
+      <DependentUpon>Form33.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form34.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form34.Designer.cs">
+      <DependentUpon>Form34.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form35.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form35.Designer.cs">
+      <DependentUpon>Form35.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form36.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form36.Designer.cs">
+      <DependentUpon>Form36.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form37.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form37.Designer.cs">
+      <DependentUpon>Form37.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form38.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form38.Designer.cs">
+      <DependentUpon>Form38.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.cs">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8.Designer.cs">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form9.Designer.cs">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUrunDetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUrunDetay.Designer.cs">
+      <DependentUpon>FormUrunDetay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gratis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gratis.Designer.cs">
+      <DependentUpon>gratis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tumurunler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tumurunler.Designer.cs">
+      <DependentUpon>tumurunler.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form34.resx">
+      <DependentUpon>Form34.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

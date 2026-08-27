@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# IDE0022: Metot için blok gövdesi kullan
+dotnet_diagnostic.IDE0022.severity = suggestion
